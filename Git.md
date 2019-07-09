@@ -12,8 +12,8 @@
 * 로컬에서 처음 Git을 활용하는 경우 아래의 설정을 해줘야 한다.
 
   ```bash
-  $ git config --global user.name '<milknsoda>'
-  $ git config --global user.email '<milknsoda9327@gmail.com>'
+  $ git config --global user.name 'milknsoda'
+  $ git config --global user.email milknsoda9327@gmail.com
   ```
 
   커밋하는 사람(`author`)이 누구인지 설정!
