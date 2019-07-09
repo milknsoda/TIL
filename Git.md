@@ -5,7 +5,7 @@
  * Window에서 `Git`을 사용하기 위해서 `Git bash`를 반드시 설치해야 함.
  * 참고자료
    	* [Git Scm](https://git-scm.com/book/ko/v2)
-   	* [누구나 쉽게 이해할 수 있는 Git 입문](https://backlog.com/git-tutorial/kr/intro/intro1_1.html)
+    * [누구나 쉽게 이해할 수 있는 Git 입문](https://backlog.com/git-tutorial/kr/intro/intro1_1.html)
 
 ## Git 기본 명령어(로컬)
 
@@ -108,7 +108,7 @@
     * 로컬 저장소에 최초에 한번만 등록하면 된다.
     * `원격 저장소(remote)`를 `origin`이라는 이름으로 정해진 `url`을 `등록(add)`하는 것이다.
 
-	2. 원격 저장소로 `push`
+2. 원격 저장소로 `push`
 
     ```bash
     $ git push origin master
@@ -116,7 +116,7 @@
 
     * `origin`으로 설정된 원격 저장소에 `push`한다.
 
-	3. 원격 저장소에서 `pull`
+3. 원격 저장소에서 `pull`
 
     ```bash
     $ git pull origin master
@@ -124,7 +124,7 @@
 
     * 원격 저장소에 새로운 변경 사항이 있는 경우 `pull`을 통해 받아온다.
 
-	4. `clone`
+4. `clone`
 
     ```bash
     $ git clone __url__
