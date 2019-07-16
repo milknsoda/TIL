@@ -10,7 +10,7 @@ print(keyword.kwlist)
 #['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 ```
 
-
+* `False` `None` `True` `and` `as` `assert` `async` `await` `break` `class` `continue` `def` `del` `elif` `else` `except` `finally` `for` `from` `global` `if` `import` `in` `is` `lambda` `nonlocal` `not` `or` `pass` `raise` `return` `try` `while` `with` `yield`
 
 # 문제 2번
 
@@ -76,5 +76,17 @@ print(f'안녕, {name}야')
   int('3.5') # => 오류가 난다.
   ```
 
+  ```
+  --------------------------------------------------------------------
+  ValueError                        Traceback (most recent call last)
+  <ipython-input-10-6ec468255209> in <module>
+        3 int(5) # => 5
+        4 bool('50') # => True
+  ----> 5 int('3.5') # => 오류가 난다.
+  
+  ValueError: invalid literal for int() with base 10: '3.5'
+  
+  ```
+  
   
 
