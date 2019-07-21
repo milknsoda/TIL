@@ -131,3 +131,29 @@ with open('movie.csv', 'r', encoding='utf-8') as f:
 
 * `csv.DictReader()`를  이용하면 `readlines()`보다 편하게 데이터를 가져올 수 있다.
 * `readlines`를 사용할 경우 데이터를 정리하는 후작업을 거쳐야하지만 `csv.DictReader()`를 사용할 경우 필요한 항목만 가져올 수 있다.
+
+### 03 - 2 정확성에 대한 고려
+
+* 영화인명을 통한 정보를 요청할 때 정확성을 높이기 위해서 처음 가져온 영화명과 영화인명을 동시에 보냈다.
+
+```python
+with open('movie.csv', 'r', encoding='utf-8') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        director_name.append(((row['감독명'].split(', '))[0], row['영화명(국문)']))
+```
+
+* 조건식을 이용하여 요청한 내용이 없을 경우 나타날 오류에 대비한다.
+
+```python
+man = response.get('peopleListResult').get('peopleList')[0] if response.get('peopleListResult').get('peopleList') else None
+director_pool[peopleNm[0]] = {
+    '영화인 코드' : man.get('peopleCd') if man.get('peopleCd') else None,
+    '영화인명' : man.get('peopleNm') if man.get('peopleNm') else None,
+    '분야' : man.get('repRoleNm') if man.get('repRoleNm') else None,
+    '필모리스트' : ','.join(man.get('filmoNames').split('|')) if man.get('filmoNames') else None
+} if response.get('peopleListResult').get('peopleList') else None
+```
+
+* 조건식을 사용하여 예외 처리를 간단하게 할 수 있다.
+
