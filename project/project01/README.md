@@ -53,7 +53,7 @@ with open('boxoffice.csv', 'w', encoding='utf-8') as f:
 
 ### 01 - 3. 결과
 
-![](C:\Users\student\Desktop\TIL\project\project01\boxoffice.PNG)
+![](boxoffice.PNG)
 
 * 총 186개
 
@@ -109,7 +109,7 @@ with open('boxoffice.csv', 'r', encoding='utf-8') as f:
 
 ### 02 - 4. 결과
 
-![](C:\Users\student\Desktop\TIL\project\project01\movie.PNG)
+![](movie.PNG)
 
 
 
@@ -167,7 +167,7 @@ director_pool[peopleNm[0]] = {
 
 ### 03 - 3. 결과
 
-![](C:\Users\student\Desktop\TIL\project\project01\director.PNG)
+![](director.PNG)
 
 * 감독 이름과 함께 앞에서 수집한 영화 제목도 같이 입력하여 영화인 정보를 요청하여 정확도를 높여보려고 했다.
 
