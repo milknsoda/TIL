@@ -51,7 +51,11 @@ with open('boxoffice.csv', 'w', encoding='utf-8') as f:
 * csv 파일의 경우 `fieldnames`를 지정하여 데이터를 보기 쉽게 정리할 수 있다.
 * 주어지는 자료가 dictionary일 경우에는 `.items()`를 이용하여 `value`값을 불러온 후에 쓰도록 할 수 있다.
 
+### 01 - 3. 결과
 
+![](C:\Users\student\Desktop\TIL\project\project01\boxoffice.PNG)
+
+* 총 186개
 
 ## 02. 영화 상세정보
 
@@ -102,6 +106,10 @@ with open('boxoffice.csv', 'r', encoding='utf-8') as f:
 * `.readlines()`를 통해 파일의 내용을 읽어올 수 있다.
 * csv 파일은 읽어올 때 `,`로 구분되어 있기 때문에 `.split(',')`를 통해 분리하는 작업이 필요하다.
 * **주의! 입력된 내용 안에도 `,`가 있을 경우에는 그 부분도 나뉘어 리스트에 저장된다.**
+
+### 02 - 4. 결과
+
+![](C:\Users\student\Desktop\TIL\project\project01\movie.PNG)
 
 
 
@@ -157,7 +165,11 @@ director_pool[peopleNm[0]] = {
 
 * 조건식을 사용하여 예외 처리를 간단하게 할 수 있다.
 
+### 03 - 3. 결과
 
+![](C:\Users\student\Desktop\TIL\project\project01\director.PNG)
+
+* 감독 이름과 함께 앞에서 수집한 영화 제목도 같이 입력하여 영화인 정보를 요청하여 정확도를 높여보려고 했다.
 
 ## 04. API 정보
 
