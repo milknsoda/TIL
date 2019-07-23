@@ -12,21 +12,4 @@
 
 * 수업에서 jupyter notebook을 활용하여 작성한 자료들
 
-## 2. [daily](/daily)
-
-> 매일 주어지는 과제들과 [python](/python)에서 한 내용 마크다운
-
-### 2-1. [homework](/daily/homework)
-
-* 수업에 배운 내용을 다시 한번 정리하는 느낌으로
-
-### 2-2. [workshop](/daily/workshop)
-
-* 배운 내용을 가지고 문제 풀이
-
-### 2-3. [정리](/daily/정리)
-
-* [python](/python)에서 정리한 jupyter notebook 파일을 마크다운으로 정리
-
-
 
