@@ -12,4 +12,6 @@
 
 * 수업에서 jupyter notebook을 활용하여 작성한 자료들
 
+## 2. [Web](/web/HTML)
 
+* Web 수업 내용 정리
