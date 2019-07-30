@@ -1,0 +1,29 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(158, 101, 212);
+  text-align: center;
+  /* line-height: 100px; */
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.back {
+  background-color: orange;
+  width: 300px;
+}
+
+.clear {
+  clear: both;
+}
+
+.under {
+  background-color: palegreen;
+}
+/* float 안에서는 다시 위에서부터 쌓는 구조 */
